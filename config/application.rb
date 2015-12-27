@@ -43,5 +43,6 @@ module DishaWebsite
         false
       end
     end
+    config.assets.precompile += ['bootstrap.css', 'font-awesome.css.erb','font-awesome.min.css.erb','freelancer.css' ,'welcome.css']
   end
 end
